@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Words Game</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<META     HTTP-EQUIV="Pragma"     CONTENT="no-cache"/>   
+	<META     HTTP-EQUIV="Cache-Control"     CONTENT="no-cache"/>   
+	<META     HTTP-EQUIV="Expires"     CONTENT="0"/>  
+	<link rel="icon" href="/dir/favicon.ico" mce_href="/dir/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/dir/favicon.ico" mce_href="/dir/favicon.ico" type="image/x-icon"> 
+        <link href="./jeu.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="jeu.js"></script>
+    <style type="text/css">
+    body {
+	background-image: url(Abstract-Wallpapers15.jpg);
+}
+    </style>
+    </head>
+	<body onLoad="">
+	<div id="title">
+	  <blockquote>
+	    <p><img  src="./logo.png" /></p>
+      </blockquote>
+	</div>
+	<div id="ranklist"><center>Click on the levels and challenge the most rapid players ! </center></div>
+	<div id="showlevel">
+	 <div id="middlebutton">
+            	<button type="button" onClick="genererJeu(1)" class="level">simple</button>
+            	<button type="button" onClick="genererJeu(2)" class="level">medium</button>
+            	<button type="button" onClick="genererJeu(3)" class="level">expert</button>
+		<button type="button" onClick="ranklist()" id="rank">RankList</button>
+	 </div>
+        </div>
+	<div id="cadre">
+      <div id="grille" class="incadre"></div>
+	<div id="listemots" class="incadre"><div id="time"></div></div>
+	</div>
+	</body>
+</html>

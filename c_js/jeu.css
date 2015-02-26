@@ -1,0 +1,50 @@
+.incadre{
+	float:left;
+	position:relative;
+	right:42%;
+	cursor:hand;
+	border-style: outset;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#time{
+    border-style: outset;
+}
+#showlevel{
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    height:50px;
+}
+#middlebutton{
+	margin-top:20px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#rank{
+    float:right;
+}
+#cadre{
+    float:left;
+    position:relative;
+    left:50%;
+}
+.ligne{
+    clear:both;
+}
+.element{
+    text-align:center;
+    float:left;
+    width:25px;
+    height:25px;
+    border-style: outset;
+}
+/*#listemots{
+    float:left;
+    border-style: outset;
+}*/
+#ranklist center {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#ranklist {
+	font-size: 16px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
