@@ -1,6 +1,6 @@
 #Words Game Online in C/PHP and Javascript 
 
-Author : HE Huilong
+Author : HE Huilong, Vincent STUDER
 
 **For local test and play**
 
